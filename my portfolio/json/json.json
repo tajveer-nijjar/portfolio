@@ -1,0 +1,91 @@
+﻿[
+  {
+    "projectId": 1,
+    "projectName": "MeraUdtaPunjab",
+    "projectUrl": "http://meraudtapunjab.com/",
+    "projectDescription": "This is a entertainment website, on which the admin can upload the videos, which are displayed to the user in the form of a Youtube like playlist.",
+    "projectImages": [
+      {
+        "imageTitle": "landingPage",
+        "imageUrl": "/Content/images/MUPsnapshot.jpg",
+        "imageDescription": "This is the landing page. User can see recently added articles, trending articles, or category wise articles. One can also see the navigation bar on the top, from where one can see articles/videos by categories. One can navigate to the playlist page by directly clicking on the video images."
+
+      },
+      {
+        "imageTitle": "articleByCategoryPage",
+        "imageUrl": " ",
+        "imageDescription": "On this page user can click on any article and navigate to the Articles playlist. There is also a link to like the facebook page of the website."
+      },
+      {
+        "imageTitle": "articlePlaylistPage",
+        "imageUrl": " ",
+        "imageDescription": "On this page the user can see a Youtube like playlist. The user can scroll down in the playlist. When the user scrolls to the end of the playlist, more videos will load. This functionality is implemented using AngularJS and jQuery."
+      }
+    ]
+  },
+  {
+    "projectId": 2,
+    "projectName": "YouSubMan",
+    "projectUrl": "http://www.yousubman.com/",
+    "projectDescription": "This website means Youtube Subscription Manager. Using this website the user can upload an XML file from Youtube, which ll consist of the list of youtube subscriptions. Then the user can organize these channels into various groups, and then view the youtube videos group wise. <br/>Youtube API (v3) is extensively used in this project",
+    "future": "In future the website will have better UI with many more options to increase the number of videos per channel to be displayed and etc. "
+    "projectImages": [
+      {
+        "imageTitle": "landingPage",
+        "imageUrl": "",
+        "imageDescription": "This is the landing page. User can see a list of groups in the left side of the page. And two links - Home and Manage on the top navbar of the page. When the user clicks any group name on the left bar then latest 5 videos of all the youtube channels in the list on the right side of the page."
+
+      },
+      {
+        "imageTitle": "landingPageWithVideos",
+        "imageUrl": " ",
+        "imageDescription": "On this page user can click on any article and navigate to the Articles playlist. There is also a link to like the facebook page of the website."
+      },
+      {
+        "imageTitle": "videoModal",
+        "imageUrl": " ",
+        "imageDescription": "When the user clicks on a video, he can see the video inside the modal. "
+      },
+      {
+        "imageTitle": "manageGroups",
+        "imageUrl": " ",
+        "imageDescription": "On this page a user can manage the groups. On the left hand side the user can see all the youtube subscriptions, and on right hand side the user can see all the groups. The user can add new groups, add/remove channels from the group by simple dragging and dropping. To create a new group, the user can simply drop a subscription in the first empty box, and the user will be greeted by a prompt to add the name of the new group. "
+      },
+      {
+        "imageTitle": "newGroupNamePrompt",
+        "imageUrl": " ",
+        "imageDescription": "User can enter the name of a new group in this prompt. "
+      }
+    ]
+  },
+  {
+    "projectId": 3,
+    "projectName": "Maharaja Kapurthala",
+    "projectUrl": "http://maharajakapurthala.com/",
+    "projectDescription": "This is a website for a banquet hall in India. ",
+    "projectImages": [
+      {
+        "imageTitle": "landingPage",
+        "imageUrl": "",
+        "imageDescription": "This is the landing page. User can see a list of groups in the left side of the page. And two links - Home and Manage on the top navbar of the page. When the user clicks any group name on the left bar then latest 5 videos of all the youtube channels in the list on the right side of the page."
+
+      }
+    ]
+  },
+  {
+    "projectId": 4,
+    "projectName": "You have made it",
+    "projectUrl": "http://www.youhavemadeit.com/",
+    "projectDescription": "Made for a client in Dunedin. It is a very simple website ",
+    "projectImages": [
+      {
+        "imageTitle": "landingPage",
+        "imageUrl": "",
+        "imageDescription": "This is the landing page. User can see a list of groups in the left side of the page. And two links - Home and Manage on the top navbar of the page. When the user clicks any group name on the left bar then latest 5 videos of all the youtube channels in the list on the right side of the page."
+
+      }
+    ]
+  }
+
+
+]

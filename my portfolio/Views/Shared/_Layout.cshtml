@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+    <meta name="theme-color" content="#DA2B09" />
+    <title>Tajveer Singh</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href = "https://fonts.googleapis.com/css?family=Kanit:200,700|Unica+One" rel = "stylesheet" >
+    @*<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">*@
+
+
+</head>
+<body data-spy="scroll" data-target="#myNavbar" style="position: relative;">
+
+
+
+
+    <div class="container-fluid">
+        <div class = "row" >
+
+
+
+            <nav class = "col-md-3 left-nav" id = "myNavbar" >
+                <div class = "nav-content" >
+                    <div class = "navHeader" >
+                        <div class = "my-image" ></div>
+                        <h2>Tajveer Singh Nijjar</h2>
+                        @*<span class="alias">(TV)</span>*@
+                        <p>@*Full Stack Developer*@</p>
+                    </div>
+
+
+                    <img src = "../../Content/images/hamburger.png" class = "hamburger" alt = "" />
+                    <br />
+
+                    <div class = "navUl collapse navbar-collapse" id = "mainNavBar" >
+                        <ul class="nav">
+                            <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li><a href="@Url.Action("Index", "Home")#whoAmI" data-target="#whoAmI">About me</a></li>
+                            <li>
+                                <a href="@Url.Action("Index", "Home")#projectsPreview" data-target="#projectsPreview">
+                                    Work
+                                    <div class="downArrow"></div>
+                                </a>
+
+                                <ul class="workSublist">
+                                    <li><a href="@Url.Action("Projects", "Home")#mup">Web Projects</a></li>
+                                    <li><a href="@Url.Action("Projects", "Home")#watch">Web Effects</a></li>
+                                    <li><a href="@Url.Action("Projects", "Home")#photoshopWork">Photoshop Work</a></li>
+                                </ul>
+
+
+                            </li>
+                            <li><a href="@Url.Action("Index", "Home")#skills" data-target="#skills">Skills</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#experience" data-target="#experience">Experience</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#education" data-target="#education">Education</a></li>
+                            @*<li><a href="@Url.Action("Index", "Home")#contact" data-target="#contact">Contact</a></li>*@
+
+                        </ul>
+
+                        <div class = "contactMe" >
+                            <ul>
+                                <li><a href = "tel:02040769472" title="02040769472"><img class = "call" src = "../../Content/images/contactImages/call.png" /></a></li>
+                                <li><a href = "https://www.facebook.com/tajveer.nijjar" target = "_blank" ><img class = "facebook" src = "../../Content/images/contactImages/facebook.png" /></a></li>
+                                <li><a href = "https://nz.linkedin.com/in/tajveer-nijjar" target = "_blank" ><img class = "linkedin" src = "../../Content/images/contactImages/linkedin.png" /></a></li>
+                                <li><a href = "mailto:taj.nijjar2002@gmail.com" title="taj.nijjar2002@gmail.com" ><img class = "email" src = "../../Content/images/contactImages/email.png" /></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+            <div class = "col-md-9 body-content" >
+                <div class = "content" >
+                    @RenderBody()
+                </div>
+                <footer style = "position: relative; z-index: 100; display: none;" >
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    @*<div class="container body-content">
+
+        </div>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

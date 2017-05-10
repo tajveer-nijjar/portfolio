@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "Content/Site.css",
+    "inputFile": "Content/Site.scss"
+  },
+  {
+    "outputFile": "Content/rollover.css",
+    "inputFile": "Content/rollover.scss"
+  },
+  {
+    "outputFile": "Content/ripple.css",
+    "inputFile": "Content/ripple.scss"
+  },
+  {
+    "outputFile": "Content/projectsPage.css",
+    "inputFile": "Content/projectsPage.scss"
+  },
+  {
+    "outputFile": "Content/GW.css",
+    "inputFile": "Content/GW.scss"
+  },
+  {
+    "outputFile": "Content/marc.css",
+    "inputFile": "Content/marc.scss"
+  },
+  {
+    "outputFile": "Content/leftNav.css",
+    "inputFile": "Content/leftNav.scss"
+  }
+]

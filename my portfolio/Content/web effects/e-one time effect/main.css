@@ -1,0 +1,39 @@
+body
+{
+    background: #eceeed;
+}
+
+.container
+{
+    height:500px;
+    width:100%;
+    overflow: auto;
+    
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+img
+{
+    display: inline-block;
+    margin:0px auto;
+    
+}
+
+img:hover
+{
+    transform: translateY(-500px);
+}
+
+.upDownImage
+{
+    height: 128px;
+    width: 198px;
+    background: url('up down.png');
+    background-repeat: no-repeat;
+
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}

@@ -1,0 +1,1 @@
+.navUl>.nav>li{border:0;outline:0;position:relative;overflow:hidden}.navUl>.nav>li .ripple{border-radius:50%;background:#d43d22;position:absolute;animation:ripple 0.4s linear;transform:scale(0)}@keyframes ripple{to{transform:scale(2.5);opacity:0}}/*# sourceMappingURL=ripple.css.map */

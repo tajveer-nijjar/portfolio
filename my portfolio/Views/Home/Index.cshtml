@@ -1,0 +1,742 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@*<link href="~/Content/Site.css" rel="stylesheet"/>*@
+
+
+
+<div id="topFixedBackgroundDiv" class="topFixedBackgroundDiv">
+    <div class="content">
+        <div class="slideUp">
+            <p id="hello">Hi! I'm </p>
+            @*<p id="myNameIs"></p>*@
+            <h1 id="name">
+                Tajveer Nijjar<span id="webDev">Web/App Developer</span>
+            </h1>
+            @*          <p id="youMust">You must be thinking...</p>*@
+            <p id="iStand">I stand at the intersection, where design meets code</p>
+
+        </div>
+
+
+
+        @*        <p id="justAnother">Just another Web developer</p>*@
+        @*<div class="clickHere">
+                <div class="whiteSlider"></div>
+            </div>*@
+        @*<p id="fullStack">i am a full stack web developer</p>
+            <p id="standAt">i stand at the intersection where design and code meet.</p>*@
+    </div>
+</div>
+
+<div id="whoAmI" class="whoAmI">
+    <div id="whoAmIBackground">
+        About me
+    </div>
+    <div class="content">
+        <h2>About me</h2>
+
+        <p>
+            I am a passionate web/app developer, specializing in Microsoft technologies. I believe that every project deserves one hundred percent effort on code, and another one hundred percent effort on design.
+        </p>
+        <p>
+            I have strong knowledge of object-oriented programming with wide variety of front-end and back-end technologies.
+            Also, I have a keen eye for beautiful web design, colors and usability principles.
+            I find pleasure in learning to create beautiful web designs.
+            In every project, I strive for impeccable user experience that people love.
+        </p>
+        <p>
+            Though my forte is Microsoft technologies (including MVC 5, Xamarin and many others), I also have some experience in PHP and Android development.
+            I have worked on variety of project related to web and app development (see below).
+            I have also worked as Lecturer in a reputed university for 4 years in Computer Science department.
+        </p>
+        <p>
+            When I am not coding, I am spending time with my family or reading .
+
+        </p>
+    </div>
+</div>
+
+
+<div class="famousQuote">
+    <div class="content">
+        <blockquote>
+            <span class="quote">"</span>Simplicity is the ultimate sophistication.<span class="quote">"</span>
+            <br />
+            <footer>Leonardo da Vinci</footer>
+        </blockquote>
+        <p>I try abide by this rule while working on every aspect of a project, whether it is design or code. </p>
+    </div>
+</div>
+
+<div class="projectsPreview" id="projectsPreview">
+
+    <div id="projectsPreviewBackground">
+        Work done by me
+    </div>
+
+    <div class="content">
+        <h2>Work done by me</h2>
+
+        <div class="projectSelector">
+            <ul>
+                <li><a href="" class="projectSelectorLink" id="all">All</a> | </li>
+                <li><a href="" class="projectSelectorLink" id="web">Websites</a> | </li>
+                <li><a href="" class="projectSelectorLink" id="apps">Mobile Apps</a> | </li>
+                <li><a href="" class="projectSelectorLink" id="design">Design</a> </li>
+            </ul>
+        </div>
+
+        <div class="allProjects">
+
+
+            <div class="webProjects">
+                <h3>Website Projects</h3>
+                <hr style="border-bottom: .5px solid rgba(62, 62, 62, .1); margin-top: -25px;"/>
+                <div class="row">
+                    <div class="projectSnapshot website col-md-5">
+                        <a href="@Url.Action("Projects", "Home")#1" target="_blank">
+                            <div class="img" style="background: url('/Content/images/MUPsnapshotPreview.jpg');"></div>
+                            <div class="content">
+                                <h5>MeraUdtaPunjab</h5>
+                                <span class="projectType">(Website)</span>
+                                @*<span class="visitWebsite">Visit Website</span>*@
+                                @*<p>A news and entertainment website, targeted to viewers of Northern India.</p>
+                                <p>An application that can be used to check weather of any city of the world.</p>*@
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projectSnapshot website col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#yousubman" target="_blank">
+                            <div class="img" style="background: url('/Content/images/yousubmanPreview.jpg');"></div>
+                            <div class="content">
+                                <h5>YouSubMan</h5>
+                                <span class="projectType">(Website)</span>
+                                <p>Youtube Subscription Organizer</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectSnapshot website col-md-5">
+                        <a href="@Url.Action("Projects", "Home")#gigHub" target="_blank">
+                            <div class="img" style="background: url('/Content/images/gighubPreview.jpg');"></div>
+                            <div class="content">
+                                <h5>Gighub</h5>
+                                <span class="projectType">
+                                    (Website, NOT ONLINE)<br />
+                                    <span class="boldItalicUnderline">made following a tutorial</span>
+
+                                </span>
+                                <p>A social networking where users can create Gigs and follow other artists' gigs.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projectSnapshot  website col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#weatherApp" target="_blank">
+                            <div class="img" style="background: url('/Content/images/weather appPreview.jpg');"></div>
+                            <div class="content">
+                                <h5>Weather App</h5>
+                                <span class="projectType">
+                                    (Website)<br />
+
+                                </span>
+                                <p>An application that can be used to check weather of any city of the world.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="projectSnapshot  website col-md-5 ">
+                        <a href="@Url.Action("Projects", "Home")#sms" target="_blank">
+                            @*<a href="/home/projects" target="_blank">*@
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/smsPreview.png');"></div>
+                            <div class="content">
+                                <h5>School Management System</h5>
+                                <span class="projectType">
+                                    (WebApp, NOT ONLINE)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A web application that can be used to manage day to day workings of a school.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projectSnapshot website col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#maharaja" target="_blank">
+                            <div class="img" style="background: url('/Content/images/maharajaPreview.jpg');"></div>
+                            <div class="content">
+                                <h5>MaharajaKapurthala</h5>
+                                <span class="projectType">(Website)</span>
+                                <p>A website for a very famous banquet hall in Punjab, India.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="appProjects">
+
+                <h3>Mobile Apps work</h3>
+                <hr style="border-bottom:.5px solid rgba(62, 62, 62, .1)" />
+                <div class="row">
+                    <div class="projectSnapshot mobileApp col-md-5 ">
+                        <a href="@Url.Action("Projects", "Home")#mapbox" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/apps/mapboxPreview.png'); background-position:top !important">
+                                
+                            </div>
+                            <div class="content">
+                                <h5>Mapbox Offline Maps</h5>
+                                <span class="projectType">
+                                    (Xamarin Android App)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>Using Mapbox SDK</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projectSnapshot mobileApp col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#easy" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div
+                                class="img" 
+                                style="background: url('/Content/images/apps/easyPreview.png'); background-position:top !important;">
+                                
+                            </div>
+                            <div class="content">
+                                <h5>Easy Schedular</h5>
+                                <span class="projectType">
+                                    (Android App)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>To manage mobile's calling profile</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectSnapshot mobileApp col-md-5 ">
+                        <a href="@Url.Action("Projects", "Home")#rayshotdogs" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/apps/rayshotdogsPreview.png'); background-position:top !important"></div>
+                            <div class="content">
+                                <h5>Ray's Hot Dogs</h5>
+                                <span class="projectType">
+                                    (Xamarin Android app)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>App for Hotdog restaurant</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projectSnapshot mobileApp col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#toggleSlider" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/apps/miwokPreview.png'); background-position:top !important"></div>
+                            <div class="content">
+                                <h5>Miwok</h5>
+                                <span class="projectType">
+                                    (Android App)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>Translation app for Miwok</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="webDesignProjects">
+
+                <h3>Web design work</h3>
+                <hr style="border-bottom:.5px solid rgba(62, 62, 62, .1)"/>
+                <div class="row">
+                    <div class="projectSnapshot webDesign col-md-5 ">
+                        <a href="@Url.Action("Projects", "Home")#watch" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/webwork/e-one.JPG');"></div>
+                            <div class="content">
+                                <h5>Wrist Watch showcase</h5>
+                                <span class="projectType">
+                                    (Effect)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A 360&#176; showcase of a watch.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projectSnapshot webDesign col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#forfools" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/webwork/forfools.JPG');"></div>
+                            <div class="content">
+                                <h5>Glowing effect</h5>
+                                <span class="projectType">
+                                    (Effect)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A glowing effect on a ForFools logo.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectSnapshot webDesign col-md-5 ">
+                        <a href="@Url.Action("Projects", "Home")#twitterButton" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/webwork/twitter checkbox.JPG');"></div>
+                            <div class="content">
+                                <h5>Twitter Button</h5>
+                                <span class="projectType">
+                                    (Effect)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A twitter checkbox button.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="projectSnapshot webDesign col-md-5 col-md-push-1">
+                        <a href="@Url.Action("Projects", "Home")#toggleSlider" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/webwork/toggleButton.JPG');"></div>
+                            <div class="content">
+                                <h5>Toggle Slider</h5>
+                                <span class="projectType">
+                                    (Effect)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A toggle slider.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="projectSnapshot webDesign col-md-6 col-md-push-3">
+                        <a href="@Url.Action("Projects", "Home")#runningMan" target="_blank">
+                            @*<img src = "/Content/images/weather appPreview.jpg" >*@
+                            <div class="img" style="background: url('/Content/images/webwork/walkingman.JPG');"></div>
+                            <div class="content">
+                                <h5>Walking man</h5>
+                                <span class="projectType">
+                                    (Effect)<br />
+                                    @*<span class="boldItalicUnderline">made following a tutorial</span>*@
+
+                                </span>
+                                <p>A walking sonic the hedgehog.</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="photoshopProjects"></div>
+        </div>
+    </div>
+</div>
+
+<div id="skills" class="mySkills">
+    <div id="skillsBackground">
+        skills
+    </div>
+
+    <div class="content">
+
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>
+                @*<h3>Back-end (Microsoft Technologies)</h3>*@
+                <h3>Front End Skills</h3>
+                <hr />
+                <br />
+                <img src="~/Content/images/skills/front end skills colored.png" alt="" />
+                @*<ul>
+                        <li>C#</li>
+                        <li>ASP.NET MVC</li>
+                        <li>ASP.NET WebAPI</li>
+                        <li>Entity Framework (Code-first)</li>
+                        <li>Fluent API</li>
+                        <li>LINQ</li>
+                        <li>SQL Server</li>
+                        <li>Microsoft Azure PaaS</li>
+                    </ul>*@
+            </li>
+            <li>
+                @*<h3>Back-end (Other Technologies) <span class="phpNote">I have knowledge of:</span></h3>*@
+                <h3>Back End Skills</h3>
+                <hr />
+                <br />
+                <img src="~/Content/images/skills/Back end skills colored.png" alt="" />
+
+                @*<ul>
+                        <li>Unit testing</li>
+                        <li>Android Application Development</li>
+                        <li>PHP</li>
+                        <li>MySql</li>
+                    </ul>*@
+            </li>
+            <li>
+                @*<h3>Front-end</h3>*@
+                <h3>Other skills</h3>
+                <hr />
+                <br />
+                <img src="~/Content/images/skills/Other skills.png" alt="" />
+                @*<ul>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>SASS/SCSS</li>
+                        <li>LESS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>AngularJS</li>
+                        <li>jQuery</li>
+                        <li>jQuery AJAX</li>
+                        <li>JSON</li>
+                    </ul>*@
+            </li>
+            @*<li>
+                    <h3>Other tools</h3>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Version Control Systems</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Team Foundation Server</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>UI / UX Design</h3>
+                    <ul>
+                        <li>Flat Design</li>
+                        <li>Material Design</li>
+                        <li>Usability principles</li>
+                        <li>Color theory</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Others</h3>
+                    <ul>
+                        <li>Fast Learner</li>
+                        <li>Strong knowledge of Object Oriented programming</li>
+                        <li>Good communication skills</li>
+                        <li>Keen eye for good web design</li>
+                    </ul>
+                </li>*@
+        </ul>
+
+    </div>
+</div>
+
+
+<div id="experience" class="experience">
+    <div id="experienceBackground">
+        Past Experience
+    </div>
+
+    <div class="content">
+        <h2>Past Experience</h2>
+
+        <div class="row appDeveloper">
+            <div class="col-md-4 leftExpCol">
+                <h4 class="designation">App Developer</h4>
+                <p class="company">LWA Solutions</p>
+                <p class="timePeriod">Feb 2017 - Current Time</p>
+                <p class="totalTimeAtJob">(2 months)</p>
+            </div>
+            <div class="col-md-8 rightExpCol">
+                <p class="responsibilitiesHeading">As an app developer, I:</p>
+                <ul class="jobResponsibilities">
+                    <li>Developed a small android app for a burger restaurant using Xamarin.</li>
+                    <li>
+                        Prototyped offline customized maps for Android and IOS using Xamarin. The maps used SDK provided
+                        by MapBox for Android and IOS. The user can select any area in the maps by drawing a polygon.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row appDeveloper">
+            <div class="col-md-4 leftExpCol">
+                <h4 class="designation">Web Developer</h4>
+                <p class="company">@*LWA Solutions*@</p>
+                <p class="timePeriod">May 2016 - Jan 2017</p>
+                <p class="totalTimeAtJob">(9 months)</p>
+            </div>
+            <div class="col-md-8 rightExpCol">
+                @*<p class="responsibilitiesHeading">Responsibilities</p>*@
+                <ul class="jobResponsibilities">
+                    <li>
+                        During this period, I have developed many applications and websites in Android, Xamarin,
+                        ASP.NET using C#, extensively using JavaScript and related front-end frameworks and
+                        libraries like jQuery and AngularJS. Details of these projects are mentioned on last page.
+                    </li>
+                    <li>During this period, I have extensively worked on developing my skills.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row appDeveloper">
+            <div class="col-md-4 leftExpCol">
+                <h4 class="designation">Lecturer</h4>
+                <p class="company">Lovely Professional University, India</p>
+                <p class="timePeriod">Dec 2010 - Nov 2014</p>
+                <p class="totalTimeAtJob">(4 years)</p>
+            </div>
+            <div class="col-md-8 rightExpCol">
+                <p class="responsibilitiesHeading">As a lecturer, my job responsibilities were:</p>
+                <ul class="jobResponsibilities">
+                    <li>
+                        To teach courses like C programming, Data Structures, Networking, Basics of Web Designing,
+                        fundamentals of ASP.NET, Photoshop and etc.
+                    </li>
+                    <li>
+                        To help and guid students in their practical work building websites.
+                    </li>
+                    <li>
+                        To prepare and deliver lectures to the diploma students, prepare Continuous Assessment,
+                        and to prepare question paper for Midterm and End term exam.
+                    </li>
+                    <li>To guide and help students in their web projects.</li>
+                    <li>To prepare syllabus and Instruction Plan for various courses.</li>
+                    <li>To work in marketing department and front desk executive during admissions period.tt</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row appDeveloper">
+            <div class="col-md-4 leftExpCol">
+                <h4 class="designation">Web Developer/<br />Technical Support, India</h4>
+                <p class="company">D.S. Software Solutions</p>
+                <p class="timePeriod">Dec 2009 - Dec 2010</p>
+                <p class="totalTimeAtJob">(1 year 1 month)</p>
+            </div>
+            <div class="col-md-8 rightExpCol">
+                <p class="responsibilitiesHeading">ResponsibilitiesAs a web developer t, my job responsibilities were:</p>
+                <ul class="jobResponsibilities">
+                    <li>
+                        To develop and maintaine VC Management System (web application, in PHP),
+                        that was used for internal management of the company.
+                    </li>
+                    <li>
+                        To develop the Help web application (ASP.NET Web Forms) for the software that can be accessed by the users.
+                    </li>
+                    <li>
+                        To install and troubleshoot the VisualCatpro (accounting software) in computers of customers and solve the problems that they face by going onsite or online.
+                    </li>
+                    <li>
+                        To prepare invoice blue print using the software for the customers.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        @*<table>
+                <tbody>
+                    <tr>
+                        <td class="companyName"><span class="name">Web Developer</span> </td>
+                        <td rowspan="3" class="responsibilities">
+                            <p>Responsitibilities:</p>
+                            <ul>
+                                <li>
+                                    During this period, I have developed many projects and websites in C# ASP.NET, extensively using
+                                    JavaScript and related front-end frameworks and libraries like jQuery and AngularJS. Details of these
+                                    projects are mentioned above.
+                                </li>
+                                <li>During this period, I have extensively worked on developing my skills.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="position">Web Developer</td>
+                    </tr>
+                    <tr>
+                        <td class="duration">May 2016 – Now <br /> (10 months)</td>
+                    </tr>
+                </tbody>
+            </table>*@
+
+        @*<table>
+                <tbody>
+                    <tr>
+                        <td class="companyName"><span class="name">allaince meat works</span> <br />Invercargill</td>
+                        <td rowspan="3" class="responsibilities">
+                            <p>Responsitibilities:</p>
+                            <ul>
+                                <li>Worked as Saw operator in Further Processing Unit 5.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="position">saw operator</td>
+                    </tr>
+                    <tr>
+                        <td class="duration">Dec 2015 – April 2016 <br />(5 months)</td>
+                    </tr>
+                </tbody>
+            </table>*@
+
+        @*<table>
+                <tbody>
+                    <tr>
+                        <td class="companyName"><span class="name">Longford dairies</span><br />Invercargill</td>
+                        <td rowspan="3" class="responsibilities">
+                            <p>Responsitibilities:</p>
+                            <ul>
+                                <li>My job duties included milking, calving, feeding, cleaning and etc.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="position">Relief milker</td>
+                    </tr>
+                    <tr>
+                        <td class="duration">March 2015 – Dec 2015 <br />(9 months)</td>
+                    </tr>
+                </tbody>
+            </table>*@
+
+        @*<table>
+                <tbody>
+                    <tr>
+                        <td class="companyName"><span class="name">Lovely Professional University</span><br />India</td>
+                        <td rowspan="3" class="responsibilities">
+                            <p>Responsitibilities:</p>
+                            <ul>
+                                <li>To teach courses like Basics of Web Designing, fundamentals of C programming, Data Structures, Photoshop, Networking, Network Security and Cryptography and etc.</li>
+                                <li>To prepare and deliver lectures to the diploma students, prepare Continuous Assessment, and to prepare question paper for Midterm and End term exam. </li>
+                                <li>To guide and help students in their web projects.</li>
+                                <li>To prepare syllabus and Instruction Plan for various courses.</li>
+                                <li>To work in marketing department and front desk executive during admissions period.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="position">Lecturer</td>
+                    </tr>
+                    <tr>
+                        <td class="duration">Dec 2010 – Nov 2014<br />(4 years)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="companyName"><span class="name">D.S. Software Solutions</span><br />India</td>
+                        <td rowspan="3" class="responsibilities">
+                            <p>Responsitibilities:</p>
+                            <ul>
+                                <li>To develop and maintain VC Management System (website), that was used for internal management of the company.</li>
+                                <li>To install and troubleshoot the VisualCatpro (accounting software) in computers of customers.</li>
+                                <li>To prepare invoice blue print using the software for the customers.</li>
+                                <li>To solve various problems of customers related to the software, online and by going onsite.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="position">PHP and ASP.NET Web Forms Developer and Technical Support</td>
+                    </tr>
+                    <tr>
+                        <td class="duration">Dec 2009 – Dec 2010 <br />(1 year, 1 month)</td>
+                    </tr>
+                </tbody>
+            </table>*@
+
+
+
+
+    </div>
+</div>
+
+
+<div id="education" class="education">
+    <div id="educationBackground">
+        Education
+    </div>
+
+    <div class="content">
+        <h2>Education</h2>
+
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="degreeName"><span class="name">Post Graduate Diploma in Information Technology</span></td>
+                    <td rowspan="3" class="duration">Feb 2015 – Nov 2015</td>
+                </tr>
+                <tr>
+                    <td class="instituteName">Southern Institute of Technology</td>
+                </tr>
+                <tr>
+                    <td class="address">Invercargill, New Zealand</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="degreeName"><span class="name">Bachelor in Technology in Computer Science and Engineering</span></td>
+                    <td rowspan="3" class="duration">Aug 2005 – May 2009</td>
+                </tr>
+                <tr>
+                    <td class="instituteName">Punjab Technical University</td>
+                </tr>
+                <tr>
+                    <td class="address">Punjab, India</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="degreeName"><span class="name">Diploma in Computer Science and Engineering</span></td>
+                    <td rowspan="3" class="duration">Aug 2002 – June 2005</td>
+                </tr>
+                <tr>
+                    <td class="instituteName">Government Polytechnic</td>
+                </tr>
+                <tr>
+                    <td class="address">Amritsar India</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+

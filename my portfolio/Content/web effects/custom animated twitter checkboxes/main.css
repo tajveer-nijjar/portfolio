@@ -1,0 +1,44 @@
+﻿body
+{
+    /*background: #d6d6d6;*/
+    background:#bbb9b9;
+}
+#container
+{
+    height:500px;
+    width:500px;
+    
+    display:block;
+    margin:50px auto;
+}
+form
+{
+    display:block;
+    height:20px;
+    width:150px;
+    vertical-align:middle;
+    margin:80px auto;
+}
+
+input[type="checkbox"]
+{
+    display:none;
+}
+label:before
+{
+    content: url(images/firstimage.png);
+}
+label:hover
+{
+    background:none;
+}
+
+input[type="checkbox"]:hover + label:before
+{
+    content: url(images/secondimage.png);
+}
+
+input[type="checkbox"]:checked + label:before
+{
+    content:url(images/thirdimage.png);
+}

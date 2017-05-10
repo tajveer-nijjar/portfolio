@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "ripple.css",
+  "sources": ["ripple.scss"],
+  "names": [],
+  "mappings": "AAWA,OAAS,KAAO,GAMZ,OAAO,EACP,QAAS,EAMT,SAAU,SACV,SAAU,QAGd,OAAS,KAAO,GAAG,QAEf,cAAe,IACf,WAAY,QAEZ,SAAS,SACT,UAAW,mBACX,UAAW,qBAGJ,OACX,GAGQ,UAAW,WACX,QAAS"
+}

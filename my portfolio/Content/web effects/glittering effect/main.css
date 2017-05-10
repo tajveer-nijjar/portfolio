@@ -1,0 +1,38 @@
+body
+{
+	background:#232323;
+}
+#container
+{
+	height:250px;
+	width:747px;
+	margin:0px auto;
+}
+#d1
+{
+	position:absolute;
+	top:100px;
+	left:200px;
+	height:250px;
+	width:747px;
+	margin:100px auto;
+	background:url('all in one color brightened copy.png');
+	/* background-size:747px 250px; */
+	z-index:1;
+}
+#d2
+{
+	z-index:0;
+	background:url('logo dull copy.png');
+	background-size:747px 250px;
+	position:absolute;
+	top:100px;
+	left:200px;
+	height:250px;
+	width:747px;
+	margin:100px auto;
+}
+/* #container:hover
+{
+	background-position:0px -200px;
+} */

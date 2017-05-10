@@ -1,0 +1,329 @@
+﻿$colorGrey: #2c2c2c;
+$colorH2Underline: #bbb;
+$colorRed: #d43d22;
+$colorDarkRed: #982b18;
+$colorBlue: #6DBCDB;
+$colorDarkBlue: #0E3B4D;
+$colorOrange: #FDC450;
+$colorPurple: #807AB6;
+
+.container-fluid
+{
+    /*border:1px solid red;*/
+    /*height:100%;*/
+    width: 100%;
+    /*margin:0 -6px;*/
+    .row
+    {
+        /*height:100%;*/
+        margin: 0;
+        
+       
+        .left-nav
+        {
+            background: $colorGrey;
+            /*background:url('patterns/pattern 5.jpg');*/
+            /*background:linear-gradient(90deg, $colorGrey, #3b3f44, $colorGrey);*/
+            padding: 0;
+            margin: 0;
+            /*border:1px solid green;*/
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            box-shadow: 1px -1px 14px rgba(0,0,0,.4);
+            z-index: 101;
+
+            .nav-content
+            {
+                margin-top: 50px;
+
+                .navHeader
+                {
+                    text-align: center;
+                    color: white;
+
+                    div.my-image
+                    {
+                        background: url('images/obama.jpg');
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 80px;
+                        /*overflow:hidden;*/
+                        background-size: cover;
+                        background-position-x: 3px;
+                        background-position-y: 0px;
+                        display: block;
+                        float: none;
+                        margin: 0 auto;
+                    }
+
+                    h2
+                    {
+                        /*margin-top:100px;*/
+                        /*text-align:justify;*/
+                        font-family: 'Ranga', cursive;
+                        font-size: 2.5em;
+                        margin-bottom: 0;
+                        color: #d43d22;
+                        display: inline-block;
+                    }
+
+                    span.alias
+                    {
+                        display: inline-block;
+                        margin-left: 5px;
+                        color: #99a6b3;
+                        color: #982b18;
+                        color: $colorGrey+70;
+                    }
+
+                    p
+                    {
+                        text-transform: uppercase;
+                        font-family: 'Unica One', sans-serif;
+                        color: #99a6b3;
+                        color: $colorGrey+70;
+                        font-size: 1.3em;
+                    }
+                }
+
+                img.hamburger
+                {
+                    display: inline;
+                    visibility: hidden;
+                    border: 2px solid white;
+                    margin: 10px;
+                    margin-top: 12px;
+                    height: 40px;
+                    border-radius: 4px;
+                    /*float:right;*/
+                    color: white;
+                }
+
+                div.navUl
+                {
+                    /*margin:0 auto;*/
+                    /*display:block !important;*/
+                    margin: 0;
+                    padding: 0 !important;
+                    margin-top: -40px;
+
+                    ul.nav
+                    {
+                        list-style-type: none;
+                        padding: 0;
+                        display: block;
+                        margin: 0 auto;
+                        /*margin-top:60px;*/
+                        /*width:70%;*/
+                        li
+                        {
+                            font-size: 20px;
+                            letter-spacing: 1px;
+                            padding-top: -10px !important;
+                            padding-left: 0 !important;
+
+
+                            a
+                            {
+                                color: #d4d3d3;
+                                font-family: 'Unica One', cursive;
+                                text-transform: uppercase;
+                                display: inline-block;
+                                padding-left: 90px;
+                                width: 100%;
+                                height: 100%;
+                                margin-top: -5px;
+                                margin-bottom: -5px;
+
+
+
+                                div.downArrow
+                                {
+                                    border-bottom: none;
+                                    border-left: 7px solid rgba(0,0,0,0);
+                                    border-right: 7px solid rgba(0,0,0,0);
+                                    border-top: 7px solid white;
+                                    position: absolute;
+                                    right: 20px;
+                                    top: 21px;
+                                    display: inline-block;
+                                }
+                            }
+
+                            &:hover
+                            {
+                                font-weight: 100;
+                                padding-top: -10px !important;
+                                background: white;
+                            }
+
+                            &:hover a > div.downArrow
+                            {
+                                border-top: 7px solid #2C2C2C;
+                            }
+
+                            &:hover a
+                            {
+                                text-decoration: none;
+                                color: $colorDarkRed;
+                            }
+
+
+
+
+
+
+
+                            ul.workSublist
+                            {
+                                list-style-type: none;
+                                padding-left: 10%;
+                                /*display: none;*/
+                                li
+                                {
+                                    font-size: large;
+
+
+                                    &:hover a
+                                    {
+                                        text-decoration: none;
+                                        color: $colorDarkRed;
+                                        background: #eeeeee;
+                                    }
+                                }
+                            }
+                        }
+
+                        > li.active
+                        {
+                            /*background:white;*/
+                            background: #F4F4F4;
+                            box-shadow: -5px 2px 10px black;
+
+                            a
+                            {
+                                color: $colorGrey;
+
+                                div.downArrow
+                                {
+                                    border-top: 7px solid #2C2C2C;
+                                }
+                            }
+                        }
+                    }
+
+
+                    div.contactMe
+                    {
+                        /*border:1px solid red;*/
+                        height: 60px;
+                        margin-top: 30px;
+                        overflow: hidden;
+
+
+                        ul
+                        {
+                            /*margin-left:60px;*/
+                            /*display:inline-block;*/
+                            list-style-type: none;
+                            /*padding-left: 15%;*/
+                            /*margin: 0px auto;*/
+                            /*margin-left:10%;*/
+                            width: 280px;
+                            padding: 0;
+
+                            li
+                            {
+                                display: inline-block;
+                                position: relative;
+                                padding-right: 50px;
+
+
+                                a
+                                {
+
+
+
+                                    img
+                                    {
+                                        position: absolute;
+                                        height: 200px;
+                                    }
+
+                                    img.call
+                                    {
+                                        /*border:1px solid red;*/
+                                        top: -25px;
+                                        left: 0px;
+
+                                        &:hover
+                                        {
+                                            transform: translateY(-62px);
+                                        }
+
+                                        &:active
+                                        {
+                                            transform: translateY(-125px);
+                                        }
+                                    }
+
+                                    img.facebook
+                                    {
+                                        /*border:1px solid white;*/
+                                        top: -24px;
+                                        left: 0px;
+
+                                        &:hover
+                                        {
+                                            transform: translateY(-62px);
+                                        }
+
+                                        &:active
+                                        {
+                                            transform: translateY(-125px);
+                                        }
+                                    }
+
+                                    img.linkedin
+                                    {
+                                        /*border:1px solid yellow;*/
+                                        top: -23px;
+                                        left: 0px;
+
+                                        &:hover
+                                        {
+                                            transform: translateY(-62px);
+                                        }
+
+                                        &:active
+                                        {
+                                            transform: translateY(-125px);
+                                        }
+                                    }
+
+                                    img.email
+                                    {
+                                        top: -23px;
+                                        left: 0px;
+
+                                        &:hover
+                                        {
+                                            transform: translateY(-62px);
+                                        }
+
+                                        &:active
+                                        {
+                                            transform: translateY(-125px);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+ }
+ }

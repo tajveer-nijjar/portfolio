@@ -1,0 +1,35 @@
+#ani
+{
+	background:url('sonic.png');
+	width:75px;
+	height:75px;
+	/* border:2px solid red; */
+	/* box-shadow:0px 0px 10px red; */
+	-webkit-animation:walk-east 500ms steps(6) infinite;
+	/* for animation
+	transition: -webkit-transform 5s; */
+	position:relative;
+	left:0px;
+	top:0px;
+}
+/* #ani:hover
+{
+	-webkit-transform: translate(1000px,0px);
+} */
+@-webkit-keyframes walk-east
+{
+	from {background-position:0px;}
+	to {background-position:-450px;}
+}
+#ani2
+{
+	background:url('SpriteSheet.jpg');
+	width:128px;
+	height:128px;
+	-webkit-animation:walk-east2 2s steps(10) infinite;
+}
+@-webkit-keyframes walk-east2
+{
+	from {background-position:0px;}
+	to {background-position:-1280px;}
+}
